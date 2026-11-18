@@ -1,0 +1,6 @@
+﻿git clone https://github.com/sfnsofia/LABINFO
+cd "C:\Users\sfnso\OneDrive\Desktop\Uni UA\1.1_Semestre\LI\teste_03_141379"
+git clone https://github.com/sfnsofia/LABINFO-03-26-27.git
+cd LABINFO-03-26-27
+dir
+git pull

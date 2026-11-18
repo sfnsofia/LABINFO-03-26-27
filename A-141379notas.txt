@@ -1,0 +1,274 @@
+NOME: Sofia Nogueira
+NMEC: 141379
+
+
+TAREFA 1 -----
+$ pwd
+/workspaces/LABINFO-03-26-27
+
+
+$ ls
+READ.me  identificacao.txt
+
+
+$ cat identificacao.txt
+NOME: Sofia Ferreira Nogueira
+NMEC: 141379@sfnsofia ➜ /workspaces/LABINFO-03-26-27 (main) $ 
+
+
+$ git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        identificacao.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+$ git add identificacao.txt
+
+
+$ git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+[main edd8a66] Tarefa 1: adiciona o ficheiro de identificação
+ 1 file changed, 2 insertions(+)
+ create mode 100644 identificacao.txt
+
+
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 348 bytes | 348.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/sfnsofia/LABINFO-03-26-27
+   b8b8483..edd8a66  main -> main
+
+
+
+
+
+TAREFA 2 -----
+$ mkdir A141379
+
+
+$ cd A141379
+
+
+$ echo "Teste de LI 2026/2027" > README.md
+
+
+$ pwd
+/workspaces/LABINFO-03-26-27/A141379
+
+
+$ cd ..
+
+
+$ pwd
+/workspaces/LABINFO-03-26-27
+
+
+$ history > cmdstask2.txt
+
+
+$ git add A141379/README.md cmdstask2.txt
+
+
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   A141379/README.md
+        new file:   cmdstask2.txt
+
+
+$ git commit -m "2.ª tarefa concluída"
+[main 844b881] 2.ª tarefa concluída
+ 2 files changed, 17 insertions(+)
+ create mode 100644 A141379/README.md
+ create mode 100644 cmdstask2.txt
+
+
+ $ git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 661 bytes | 661.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/sfnsofia/LABINFO-03-26-27
+   edd8a66..844b881  main -> main
+
+
+
+
+TAREFA 3 -----
+PS C:\Users\sfnso> cd "C:\Users\sfnso\OneDrive\Desktop\Uni UA\1.1_Semestre\LI\teste_03_141379"
+PS C:\Users\sfnso\OneDrive\Desktop\Uni UA\1.1_Semestre\LI\teste_03_141379>
+
+
+pwd
+
+Path
+----
+C:\Users\sfnso\OneDrive\Desktop\Uni UA\1.1_Semestre\LI\teste_03_141379
+
+
+git clone https://github.com/sfnsofia/LABINFO-03-26-27.git
+Cloning into 'LABINFO-03-26-27'...
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 11 (delta 0), reused 3 (delta 0), pack-reused 8 (from 1)
+Receiving objects: 100% (11/11), done.
+PS C:\Users\sfnso\OneDrive\Desktop\Uni UA\1.1_Semestre\LI\teste_03_141379>
+
+
+cd LABINFO-03-26-27
+
+
+
+dir
+
+
+    Directory: C:\Users\sfnso\OneDrive\Desktop\Uni UA\1.1_Semestre\LI\teste_03_141379\LABINFO-03-26-27
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        18/11/2026     12:42                A141379
+-a----        18/11/2026     12:42            498 cmdstask2.txt
+-a----        18/11/2026     12:42             43 identificacao.txt
+-a----        18/11/2026     12:42             44 READ.me
+
+
+PS C:\Users\sfnso\OneDrive\Desktop\Uni UA\1.1_Semestre\LI\teste_03_141379\LABINFO-03-26-27>
+
+
+
+
+
+
+TAREFA 6 -----
+- PARTE A -
+$ cd /workspaces/LABINFO-03-26-27
+
+
+$ git pull
+Already up to date.
+
+
+$ history > meusComandosCodespace.txt
+
+
+$ cat meusComandosCodespace.txt
+    1  pwd
+    2  cat identificacao.txt
+    3  commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+    4  ls
+    5  git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+    6  git add identificacao.txt
+    7  git status
+    8  git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+    9  git push
+   10  cd /workspaces/LABINFO-03-26-27
+   11  git pull
+   12  history > meusComandosCodespace.txt
+
+
+=== Comandos do Codespace ===
+    1  pwd
+    2  cat identificacao.txt
+    3  commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+    4  ls
+    5  git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+    6  git add identificacao.txt
+    7  git status
+    8  git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+    9  git push
+   10  cd /workspaces/LABINFO-03-26-27
+   11  git pull
+   12  history > meusComandosCodespace.txt
+
+
+   $ git add meusComandosCodespace.txt
+
+
+   $ git commit -m "Tarefa 6: regista o histórico do Codespace"
+[main 8025fca] Tarefa 6: regista o histórico do Codespace
+ 1 file changed, 12 insertions(+)
+ create mode 100644 meusComandosCodespace.txt
+
+
+ $ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 511 bytes | 511.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/sfnsofia/LABINFO-03-26-27
+   844b881..8025fca  main -> main
+
+
+
+- PARTE B -
+ git pull
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 3 (delta 1), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 491 bytes | 16.00 KiB/s, done.
+From https://github.com/sfnsofia/LABINFO-03-26-27
+   844b881..8025fca  main       -> origin/main
+Updating 844b881..8025fca
+Fast-forward
+ meusComandosCodespace.txt | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+ create mode 100644 meusComandosCodespace.txt
+
+
+Get-History | Select-Object -ExpandProperty CommandLine | Set-Content -Encoding utf8 meusComandosLocais.txt
+
+
+--- Comandos do computador ---
+Get-Content meusComandosLocais.txt
+
+
+git clone https://github.com/sfnsofia/LABINFO
+
+
+cd "C:\Users\sfnso\OneDrive\Desktop\Uni UA\1.1_Semestre\LI\teste_03_141379"
+
+
+git clone https://github.com/sfnsofia/LABINFO-03-26-27.git
+
+
+cd LABINFO-03-26-27
+
+
+dir
+
+
+git pull 
+
+
+cd "C:\Users\sfnso\OneDrive\Desktop\Uni UA\1.1_Semestre\LI\teste_03_141379\LABINFO-03-26-27"
+
+
+git add meusComandosLocais.txt
+
+
+git commit -m "Tarefa 6 cumprida"
+[main 17e9b86] Tarefa 6 cumprida
+ 1 file changed, 6 insertions(+)
+ create mode 100644 meusComandosLocais.txt
+
+
+git push

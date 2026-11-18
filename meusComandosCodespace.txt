@@ -1,0 +1,12 @@
+    1  pwd
+    2  cat identificacao.txt
+    3  commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+    4  ls
+    5  git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+    6  git add identificacao.txt
+    7  git status
+    8  git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+    9  git push
+   10  cd /workspaces/LABINFO-03-26-27
+   11  git pull
+   12  history > meusComandosCodespace.txt
